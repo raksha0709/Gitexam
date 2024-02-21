@@ -4,7 +4,6 @@ def bubble_sort(a):
 		for j in range(0, n-i-1):
 			if a[j] > a[j + 1]:
 				a[j], a[j + 1] = a[j + 1], a[j]
-		
 a = [6,2,1,7]
 bubble_sort(a)
 print("Sorted array is:")
